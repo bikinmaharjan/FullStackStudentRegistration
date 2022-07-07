@@ -13,6 +13,11 @@ Simple Full Stack App using Springboot as backend and HTML, Bootstrap and jQuery
 
 > Delete student by id
 
+# Setup guide
+1. Create a mysqldatabase at port 3307 with schema studentdb. The software will automatically create tables as needed.
+2. Run the main application from any IDE. Note that the backend server is hosted at port 9999.
+3. To access the frontend open the index.html in the Frontend folder at the parent folder or host it in a live server.
+
 
 # Features to be added
 > Dynamic edit and delete (Api supports PUT request but have to implement at frontend)
